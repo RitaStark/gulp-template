@@ -3,7 +3,7 @@
 
     & input,
     textarea {
-        width: 398px;
+        width: 385px;
         background-color: #58c2f0;
         color: #ffffff;
         border: none;
@@ -15,10 +15,10 @@
 }
 
 .pop-up h2 {
-    font-size: 28px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 400;
-    line-height: 39px;
+    line-height: 33px;
     text-align: left;
     color: #ffffff;
     margin-bottom: 0;
@@ -34,12 +34,20 @@
     line-height: 22px;
     text-align: left;
     color: #ffffff;
+    margin-bottom: 32px;
 
     @include font-ptmono;
 }
 
 .pop-up__item {
     margin-bottom: 30px;
+
+    & input,
+    textarea {
+        &::placeholder {
+            font-size: 16px;
+        }
+    }
 }
 
 .pop-up label {
@@ -69,20 +77,27 @@
     display: block;
     width: 100%;
     text-align: center;
+    margin-top: -4px;
 
     @include font-roboto;
 }
 
 .pop-up textarea {
-    padding-top: 14px;
-    padding-left: 14px;
-    padding-bottom: 67px;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-left: 26px;
+    padding-bottom: 55px;
+    margin-top: 2px;
     resize: none;
-    width: 400px;
+    width: 384px;
+
+    &::placeholder {
+        font-size: 16px;
+    }
 }
 
 .pop-up input {
-    padding: 10px 10px;
+    padding: 17px 0 17px 27px;
 }
 
 .pop-up__check-mark {
@@ -102,10 +117,10 @@
         content: "";
         position: absolute;
         border: 1px solid #ffffff;
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
         left: 0;
-        top: 0;
+        top: 5px;
     }
 }
 
@@ -140,4 +155,5 @@
 .pop-up__agree-text p {
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 19px;
 }
