@@ -213,14 +213,14 @@
 
     .services__list {
         column-gap: 30px;
-        row-gap: 30px;
+        row-gap: 0;
         margin-left: 0;
-        margin-bottom: 30px;
     }
 
     .services__list a {
         width: 100%;
         position: relative;
+        margin-bottom: 30px;
 
         &::before {
             content: "";
