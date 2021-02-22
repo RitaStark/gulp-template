@@ -246,14 +246,18 @@ input[type="checkbox"] {
     }
 
     .question-form__card {
-        // max-width: 593px;
         margin: 0 auto;
 
         @include max-width-767;
     }
 
+    .question-form__item {
+        margin-bottom: 40px;
+    }
+
     .question-form__client-data {
-        row-gap: 30px;
+        row-gap: 0;
+        margin-bottom: 0;
     }
 
     .question-form__card h2 {
@@ -267,6 +271,7 @@ input[type="checkbox"] {
 
     .question-form__data {
         margin: 0 auto;
+        row-gap: 0;
     }
 
     .question-form__agreements {
@@ -308,12 +313,12 @@ input[type="checkbox"] {
         width: 100%;
         padding-top: 27px;
         flex-direction: column;
+        row-gap: 0;
     }
 
     .question-form__client-data {
         display: flex;
         flex-direction: column;
-        row-gap: 30px;
         margin: 0 auto;
 
         @include max-width-767;
@@ -336,6 +341,7 @@ input[type="checkbox"] {
 
     .question-form__item {
         width: 100%;
+        margin-bottom: 40px;
 
         & input[type="text"],
         input[type="tel"] {
