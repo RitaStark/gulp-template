@@ -96,22 +96,36 @@
         max-width: 1023px;
         margin: 0 auto;
         padding-top: 0;
+        padding-bottom: 96px;
     }
 
     .about-company__wrapper {
-        padding-left: 138px;
+        padding-left: 195px;
         padding-right: 44px;
         margin-left: 18px;
         margin-right: 0;
         max-width: 95%;
     }
 
-    .about-company__header {
-        font-size: 32px;
+    .about-company h2 {
+        font-size: 30px;
+        margin-bottom: 23px;
     }
 
     .about-company__desktop-text {
         display: none;
+    }
+
+    .about-company__par-first {
+        margin-bottom: 21px;
+    }
+
+    .about-company__par-second {
+        padding-bottom: 56px;
+    }
+
+    .about-company__button {
+        padding: 14px 41px 14px 48px;
     }
 
     .about-company__tablet-text {
@@ -119,19 +133,19 @@
     }
 
     .about-company__info {
-        background-size: 118px 293px;
+        background-size: 119px 355px;
 
-        width: 113px;
-        height: 293px;
-        top: 11px;
-        left: 5px;
+        width: 119px;
+        height: 355px;
+        top: 6px;
+        left: 18px;
     }
 
     .about-company__year {
-        font-size: 133px;
+        font-size: 162px;
 
-        top: 98px;
-        left: -88px;
+        top: 122px;
+        left: -103px;
     }
 }
 

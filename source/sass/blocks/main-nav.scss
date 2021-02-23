@@ -132,6 +132,22 @@
     .main-nav__call-order {
         display: none;
     }
+
+    .main-nav__email > a > img {
+        position: relative;
+        left: -3px;
+        top: -12px;
+        width: 24px;
+        height: 18px;
+    }
+
+    .main-nav__tel > a > img {
+        position: relative;
+        left: 11px;
+        top: -14px;
+        width: 24px;
+        height: 23px;
+    }
 }
 
 @media (max-width: $tablet-width) {

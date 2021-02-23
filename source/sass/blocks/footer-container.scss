@@ -4,6 +4,14 @@
     margin-right: 35px;
 }
 
+// tablet----------------------------------------------------------------------------
+
+@media (max-width: $desktop-width) {
+    .footer-container {
+        margin-left: 25px;
+    }
+}
+
 // mobile ----------------------------------------------------------------------------
 
 @media (max-width: $tablet-width) {

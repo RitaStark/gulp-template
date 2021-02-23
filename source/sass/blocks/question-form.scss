@@ -237,10 +237,11 @@ input[type="checkbox"] {
     .question-form__wrapper {
         max-width: 770px;
         margin: 0 auto;
-        padding: 83px 63px 103px 63px;
+        padding: 77px 63px 75px 63px;
     }
 
     .question-form__container {
+        padding-top: 0;
         @include margin-0-0;
     }
 
@@ -260,21 +261,28 @@ input[type="checkbox"] {
 
     .question-form__client-data {
         row-gap: 0;
-        margin-bottom: 0;
+        margin-bottom: 3px;
     }
 
     .question-form__card h2 {
         font-size: 32px;
-        padding-left: 3px;
+        padding-left: 25px;
+        margin-bottom: 13px;
     }
 
     .question-form__card p {
-        padding-left: 5px;
+        padding-left: 31px;
     }
 
     .question-form__data {
         margin: 0 auto;
+        width: 90%;
         row-gap: 0;
+        padding-top: 55px;
+    }
+
+    .question-form__ask textarea {
+        height: 138px;
     }
 
     .question-form__agreements {

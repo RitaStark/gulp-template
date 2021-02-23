@@ -168,22 +168,32 @@
     }
 
     .advantages__list {
-        width: 95%;
+        width: 93%;
         justify-content: space-between;
         column-gap: 27px;
     }
 
     .advantages__item {
-        width: 36%;
+        padding: 17px 20px 5px 24px;
+        width: 41%;
     }
 
-    .advantages__header {
+    .advantages__item h2 {
+        font-size: 20px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+    }
+
+    .advantages__item p {
         margin-top: 0;
+        font-size: 18px;
+        line-height: 22px;
+        color: #666666;
     }
 
     .advantages-wrapper {
         margin-top: 55px;
-        padding-bottom: 58px;
+        padding-bottom: 29px;
         padding-top: 0;
     }
 
@@ -191,6 +201,44 @@
         &::after {
             display: none;
         }
+    }
+
+    .advantages__item-stopwatch {
+        padding-top: 21px;
+    }
+
+    .advantages__item-stopwatch h2 {
+        margin-top: 0;
+        padding-top: 2px;
+    }
+
+    .advantages__item-hired {
+        padding-top: 21px;
+    }
+
+    .advantages__item-hired h2 {
+        padding-top: 0;
+    }
+
+    .advantages__item-derective {
+        padding-top: 25px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .advantages__item-derective p {
+        margin-bottom: 0;
+        padding-bottom: 53px;
+    }
+
+    .advantages__item-derective h2 {
+        margin-bottom: 15px;
+    }
+
+    .advantages__item-tag {
+        padding-top: 22px;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -244,6 +292,7 @@
         margin-top: 0;
         line-height: 22px;
         margin-bottom: 0;
+        font-size: 15px;
     }
 
     .advantages__item-stopwatch {
@@ -255,7 +304,7 @@
     }
 
     .advantages__item-derective {
-        padding: 25px 14px 59px 26px;
+        padding: 25px 14px 3px 26px;
     }
 
     .advantages__item-derective h2 {
@@ -263,7 +312,7 @@
     }
 
     .advantages__item-tag {
-        padding: 24px 14px 23px 26px;
+        padding: 24px 14px 45px 26px;
     }
 
     .advantages__item-tag h2 {
@@ -272,9 +321,5 @@
 
     .advantages__item-tag p {
         letter-spacing: 0;
-    }
-
-    .advantages__header {
-        font-size: 20px;
     }
 }

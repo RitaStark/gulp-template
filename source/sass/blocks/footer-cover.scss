@@ -5,6 +5,14 @@
 
 // mobile ----------------------------------------------------------------------------
 
+// tablet----------------------------------------------------------------------------
+
+@media (max-width: $desktop-width) {
+    .footer-cover {
+        padding-bottom: 17px;
+    }
+}
+
 @media (max-width: $tablet-width) {
     .footer-cover {
         padding-bottom: 0;

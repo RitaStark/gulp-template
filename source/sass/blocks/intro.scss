@@ -168,7 +168,7 @@
 @media (max-width: $desktop-width) {
     .intro__wrapper {
         margin: 0 auto;
-        padding-bottom: 161px;
+        padding-bottom: 157px;
         overflow: hidden;
     }
 
@@ -181,14 +181,14 @@
 
     .intro h1 {
         max-width: 1023px;
-        font-size: 60px;
+        font-size: 57px;
         font-style: normal;
         font-weight: 700;
         line-height: 70px;
         letter-spacing: 0.07em;
         text-align: left;
-
-        margin-top: 139px;
+        margin-left: -6px;
+        margin-top: 140px;
     }
 
     .intro p {
@@ -202,7 +202,7 @@
     .intro__block {
         position: relative;
         padding-left: 47px;
-        margin-bottom: 63px;
+        margin-bottom: 91px;
 
         &::before {
             width: 33px;
@@ -213,8 +213,8 @@
 
     .intro__picture {
         position: absolute;
-        right: -192px;
-        top: 140px;
+        right: -208px;
+        top: 153px;
     }
 
     .intro__advice {
@@ -240,15 +240,15 @@
 
     .intro__button {
         min-width: 356px;
-        padding: 17px 20px;
+        padding: 19px 15px;
     }
 
     .intro__triangle-big {
-        background-size: 395px 421px;
-        top: -115px;
-        left: -61px;
-        width: 384px;
-        height: 421px;
+        background-size: 527px 503px;
+        top: -151px;
+        left: -68px;
+        width: 503px;
+        height: 527px;
     }
 }
 

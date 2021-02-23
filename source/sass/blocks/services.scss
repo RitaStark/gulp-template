@@ -118,6 +118,8 @@
 @media (max-width: $desktop-width) {
     .services__wrapper {
         max-width: 767px;
+        padding-top: 47px;
+        padding-bottom: 35px;
     }
 
     .services__container {
@@ -126,9 +128,10 @@
     }
 
     .services__container h2 {
-        font-size: 32px;
-        margin-left: 0;
-        margin-right: 25px;
+        line-height: 49px;
+        font-size: 31px;
+
+        margin: 0 25px 45px 0;
     }
 
     .services__list {
@@ -141,7 +144,7 @@
     .services__list a {
         width: 100%;
         position: relative;
-        margin-bottom: 30px;
+        margin-bottom: 45px;
 
         &::before {
             content: "";
@@ -165,7 +168,8 @@
         width: 671px;
         height: 210px;
 
-        padding-top: 46px;
+        padding-top: 40px;
+        padding-bottom: 6px;
         padding-left: 44px;
     }
 
@@ -195,7 +199,7 @@
         max-width: 767px;
         margin: 0 auto;
         padding-top: 49px;
-        padding-bottom: 37px;
+        padding-bottom: 23px;
     }
 
     .services__container {
@@ -236,7 +240,7 @@
         }
 
         &::after {
-            bottom: -2px;
+            bottom: 4px;
         }
     }
 

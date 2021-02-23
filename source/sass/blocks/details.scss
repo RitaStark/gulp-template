@@ -37,3 +37,10 @@
         height: 38px;
     }
 }
+
+// tablet----------------------------------------------------------------------------
+@media (max-width: $desktop-width) {
+    .details__block {
+        padding-top: 5px;
+    }
+}
