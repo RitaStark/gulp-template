@@ -157,16 +157,22 @@
 
     .footer-list__label {
         margin-bottom: 0;
-        margin-left: 18px;
+        margin-left: 15px;
         position: relative;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-align: left;
 
         &::after {
             content: "+";
-            font-size: 25px;
+            font-size: 29px;
             opacity: 0.5;
             position: absolute;
-            left: 266px;
-            top: 24px;
+            left: 272px;
+            top: 30px;
         }
     }
 }

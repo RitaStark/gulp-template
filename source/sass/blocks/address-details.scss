@@ -58,8 +58,8 @@
 @media (max-width: $tablet-width) {
     .address-details {
         position: relative;
-        padding-top: 29px;
-        padding-bottom: 22px;
+        padding-top: 25px;
+        padding-bottom: 18px;
         width: 320px;
         margin: 0 auto;
     }
@@ -75,7 +75,15 @@
 
     .address-details__list {
         display: none;
-        margin-left: 18px;
+        margin-left: 15px;
+        line-height: 22px;
+        padding-right: 50px;
+        margin-top: 33px;
+    }
+
+    .address-details__item {
+        line-height: 24px;
+        padding-bottom: 0;
     }
 
     .address-details input {
@@ -91,16 +99,23 @@
     }
 
     .address-details__label {
-        margin-left: 18px;
         padding-right: 182px;
+        margin-left: 15px;
+        position: relative;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-align: left;
     }
 
     .address-details__label::after {
         content: "+";
-        font-size: 25px;
+        font-size: 29px;
         opacity: 0.5;
         position: absolute;
-        left: 283px;
-        top: 24px;
+        left: 273px;
+        top: 28px;
     }
 }

@@ -150,4 +150,20 @@
             padding: 5px 5px;
         }
     }
+
+    .main-nav__email > a > img {
+        position: relative;
+        left: 5px;
+        top: -8px;
+        width: 23px;
+        height: 18px;
+    }
+
+    .main-nav__tel > a > img {
+        position: relative;
+        left: 8px;
+        top: -10px;
+        width: 23px;
+        height: 23px;
+    }
 }

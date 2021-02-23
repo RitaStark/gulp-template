@@ -139,14 +139,20 @@
 
 @media (max-width: $tablet-width) {
     .about-company {
-        padding-bottom: 77px;
+        padding-bottom: 79px;
         margin: 0 auto;
 
         @include max-width-767;
     }
 
+    .about-company__wrapper h2 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
     .about-company__wrapper {
-        max-width: 95%;
+        max-width: 90%;
         margin: 0 auto;
         padding-left: 0;
         padding-right: 0;
@@ -163,7 +169,15 @@
     }
 
     .about-company__par-first {
-        margin-bottom: 36px;
+        margin-bottom: 41px;
+    }
+
+    .about-company__par-second {
+        padding-bottom: 45px;
+    }
+
+    .about-company__button {
+        padding: 13px 44px;
     }
 
     .about-company__year {
