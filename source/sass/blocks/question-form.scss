@@ -237,7 +237,7 @@ input[type="checkbox"] {
     .question-form__wrapper {
         max-width: 770px;
         margin: 0 auto;
-        padding: 77px 63px 75px 63px;
+        padding: 75px 63px 76px 63px;
     }
 
     .question-form__container {
@@ -256,12 +256,11 @@ input[type="checkbox"] {
     }
 
     .question-form__item {
-        margin-bottom: 40px;
+        margin-bottom: 41px;
     }
 
     .question-form__client-data {
         row-gap: 0;
-        margin-bottom: 3px;
     }
 
     .question-form__card h2 {
@@ -278,7 +277,7 @@ input[type="checkbox"] {
         margin: 0 auto;
         width: 90%;
         row-gap: 0;
-        padding-top: 55px;
+        padding-top: 53px;
     }
 
     .question-form__ask textarea {
@@ -293,6 +292,10 @@ input[type="checkbox"] {
         & a {
             padding: 14px 4px 12px 69px;
         }
+    }
+
+    .question-form__agreements button {
+        padding: 14px 25px;
     }
 
     .question-form__right-triangle {
