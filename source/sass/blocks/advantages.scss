@@ -176,6 +176,20 @@
     .advantages__item {
         padding: 17px 20px 5px 24px;
         width: 41%;
+
+        &:hover p {
+            background-color: #00b2ff;
+            cursor: pointer;
+            color: #ffffff;
+        }
+
+        &:hover h2 {
+            color: #ffffff;
+        }
+
+        &:hover .advantages__icon {
+            fill: #ffffff;
+        }
     }
 
     .advantages__item h2 {
