@@ -71,7 +71,7 @@
         width: 63px;
         height: 63px;
         right: 0;
-        bottom: 0;
+        bottom: -1px;
     }
 }
 
@@ -160,17 +160,19 @@
 
         &::after {
             right: 0;
-            bottom: 0;
+            bottom: 1px;
         }
     }
 
     .services__item {
-        width: 671px;
-        height: 210px;
-
+        height: 217px;
         padding-top: 40px;
-        padding-bottom: 6px;
         padding-left: 44px;
+
+        &:hover {
+            outline-offset: -1px;
+            outline: 1px solid #00b2ff;
+        }
     }
 
     .services__production-link {
@@ -240,13 +242,12 @@
         }
 
         &::after {
-            bottom: 4px;
+            bottom: 0;
         }
     }
 
     .services__item {
-        max-width: 255px;
-        height: 233px;
+        height: 235px;
         padding-top: 21px;
         padding-left: 34px;
     }
