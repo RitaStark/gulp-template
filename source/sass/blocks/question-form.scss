@@ -86,7 +86,7 @@
         border: none;
         background-color: #58c2f0;
         padding-left: 20px;
-        -webkit-appearance: none;
+        // -webkit-appearance: none;
         border-radius: 0;
     }
 
@@ -242,6 +242,7 @@ input[type="checkbox"] {
 
     .question-form__container {
         padding-top: 0;
+
         @include margin-0-0;
     }
 

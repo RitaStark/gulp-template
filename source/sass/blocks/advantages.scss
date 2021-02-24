@@ -211,12 +211,6 @@
         padding-top: 0;
     }
 
-    .advantages__item-tag {
-        &::after {
-            display: none;
-        }
-    }
-
     .advantages__item-stopwatch {
         padding-top: 21px;
     }
@@ -253,6 +247,10 @@
         padding-top: 22px;
         margin-bottom: 0;
         padding-bottom: 0;
+
+        &::after {
+            display: none;
+        }
     }
 }
 
