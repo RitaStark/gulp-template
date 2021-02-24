@@ -53,7 +53,7 @@
 
 .advantages__item-stopwatch,
 .advantages__item-hired,
-.advantages__item-derective,
+.advantages__item-detective,
 .advantages__item-tag {
     padding: 27px 42px 70px 44px;
 }
@@ -234,18 +234,18 @@
         padding-top: 0;
     }
 
-    .advantages__item-derective {
+    .advantages__item-detective {
         padding-top: 25px;
         margin-bottom: 0;
         padding-bottom: 0;
     }
 
-    .advantages__item-derective p {
+    .advantages__item-detective p {
         margin-bottom: 0;
         padding-bottom: 53px;
     }
 
-    .advantages__item-derective h2 {
+    .advantages__item-detective h2 {
         margin-bottom: 15px;
     }
 
@@ -271,7 +271,7 @@
 
     .advantages-wrapper {
         max-width: 767px;
-        margin-top: 37px;
+        margin-top: 35px;
         overflow: hidden;
         padding-bottom: 0;
     }
@@ -296,7 +296,7 @@
     .advantages__item h2 {
         letter-spacing: -1.2px;
         font-size: 20px;
-        margin-top: 3px;
+        margin-top: 0;
         margin-bottom: 7px;
     }
 
@@ -306,27 +306,33 @@
         margin-top: 0;
         line-height: 22px;
         margin-bottom: 0;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .advantages__item-stopwatch {
-        padding: 24px 14px 26px 26px;
+        padding: 24px 14px 25px 26px;
     }
 
     .advantages__item-hired {
-        padding: 25px 14px 10px 26px;
+        padding: 21px 14px 10px 26px;
     }
 
-    .advantages__item-derective {
-        padding: 25px 14px 3px 26px;
+    .advantages__item-hired h2 {
+        margin-top: 6px;
+        margin-bottom: 3px;
     }
 
-    .advantages__item-derective h2 {
+    .advantages__item-detective {
+        padding: 21px 14px 5px 26px;
+    }
+
+    .advantages__item-detective h2 {
+        margin-top: 5px;
         margin-bottom: 14px;
     }
 
     .advantages__item-tag {
-        padding: 24px 14px 45px 26px;
+        padding: 24px 14px 23px 26px;
     }
 
     .advantages__item-tag h2 {
