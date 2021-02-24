@@ -32,6 +32,12 @@
 }
 
 .address-details__item a {
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.address-details__item a {
     list-style-type: none;
     text-decoration: none;
     color: #1b2d37;
