@@ -46,6 +46,7 @@
     textarea {
         &::placeholder {
             font-size: 16px;
+
             @include font-ptmono;
         }
     }
