@@ -86,7 +86,6 @@
         border: none;
         background-color: #58c2f0;
         padding-left: 20px;
-        // -webkit-appearance: none;
         border-radius: 0;
     }
 
@@ -113,6 +112,14 @@
     align-content: center;
     color: #ffffff;
     width: 100%;
+    position: relative;
+}
+
+.question-form__agreements input {
+    opacity: 0;
+    position: absolute;
+    left: 210px;
+    top: -9px;
 }
 
 .question-form__agreements button {
@@ -217,6 +224,10 @@
         left: 3px;
         top: 9px;
     }
+
+    &:focus + label::after {
+        outline: 2px solid #ffffff;
+    }
 }
 
 .question-form__client-data {
@@ -225,10 +236,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 40px;
-}
-
-input[type="checkbox"] {
-    display: none;
 }
 
 // tablet----------------------------------------------------------------------------
