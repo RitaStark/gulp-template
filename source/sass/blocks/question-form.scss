@@ -239,8 +239,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     box-sizing: border-box;
-    // row-gap: 40px;
-    // column-gap: 40px;
 }
 
 .question-form__client-data input {
@@ -250,6 +248,10 @@
 // tablet----------------------------------------------------------------------------
 
 @media (max-width: $desktop-width) {
+    .question-form {
+        padding-bottom: 27px;
+    }
+
     .question-form__wrapper {
         max-width: 770px;
         margin: 0 auto;
@@ -298,7 +300,7 @@
     }
 
     .question-form__ask textarea {
-        height: 138px;
+        height: 166px;
     }
 
     .question-form__agreements {
@@ -317,6 +319,11 @@
 
     .question-form__right-triangle {
         display: none;
+    }
+
+    .question-form__check-mark + label::after {
+        width: 14px;
+        height: 14px;
     }
 }
 
