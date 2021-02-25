@@ -14,15 +14,6 @@
     margin-left: 72px;
 }
 
-.page-header__logo {
-    display: flex;
-    flex-direction: row;
-}
-
-.page-header__logo-details {
-    text-decoration: none;
-}
-
 // tablet----------------------------------------------------------------------------
 @media (max-width: $desktop-width) {
     .page-header__wrapper {
@@ -48,5 +39,10 @@
         margin: 0 16px;
         padding-top: 0;
         align-items: center;
+    }
+
+    .page-header__img {
+        width: 38px;
+        height: 38px;
     }
 }
