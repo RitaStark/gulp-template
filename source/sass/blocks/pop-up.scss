@@ -101,6 +101,11 @@
 }
 
 .pop-up__check-mark {
+    opacity: 0;
+    position: absolute;
+    bottom: 50px;
+    left: -149px;
+
     &:checked + label::before {
         content: "";
         position: absolute;
@@ -110,7 +115,11 @@
         background-position: center;
         background-size: 10px 10px;
         left: 5px;
-        top: 5px;
+        top: 9px;
+    }
+
+    &:focus + label::after {
+        outline: 2px solid #ffffff;
     }
 
     & + label::after {
