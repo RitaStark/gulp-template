@@ -1,6 +1,7 @@
 .question-form {
     background-color: #00b2ff;
     overflow: hidden;
+    max-height: 669px;
 }
 
 .question-form__wrapper {
@@ -10,7 +11,6 @@
 
 .question-form__container {
     padding-top: 92px;
-    padding-bottom: 30px;
     display: flex;
     position: relative;
 
@@ -18,7 +18,7 @@
 }
 
 .question-form__card h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: 51px;
@@ -49,7 +49,7 @@
     justify-content: space-between;
     row-gap: 40px;
     padding-top: 49px;
-    width: 98%;
+    width: 100%;
 
     @include font-ptmono;
 }
@@ -59,7 +59,7 @@
 
     & textarea {
         width: 100%;
-        height: 154px;
+        height: 157px;
         font-size: 16px;
         color: #ffffff;
         resize: vertical;
@@ -67,6 +67,7 @@
         padding-top: 20px;
         border: none;
         border-radius: 0;
+        box-sizing: border-box;
 
         &::placeholder {
             padding-left: 0;
@@ -169,14 +170,14 @@
     width: 100%;
     position: relative;
     z-index: 1;
-    top: -87px;
-    left: -28px;
+    top: -92px;
+    left: -24px;
 }
 
 .question-form__back-triangle {
     position: absolute;
     bottom: 25px;
-    left: -157px;
+    left: -175px;
     width: 670px;
     height: 641px;
     background-image: url("../images/triangles-ask-form.png");
@@ -237,7 +238,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 40px;
+    box-sizing: border-box;
+    // row-gap: 40px;
+    // column-gap: 40px;
+}
+
+.question-form__client-data input {
+    box-sizing: border-box;
 }
 
 // tablet----------------------------------------------------------------------------

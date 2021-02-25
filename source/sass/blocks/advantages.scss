@@ -30,7 +30,7 @@
     border: 1px solid #ebebeb;
     border-left: 1px solid #00b2ff;
     background-color: #ffffff;
-    width: 35%;
+    width: 36%;
 
     margin-bottom: 30px;
 
@@ -53,10 +53,13 @@
 }
 
 .advantages__item-stopwatch,
-.advantages__item-hired,
+.advantages__item-hired {
+    padding: 27px 42px 65px 44px;
+}
+
 .advantages__item-detective,
 .advantages__item-tag {
-    padding: 27px 42px 70px 44px;
+    padding: 27px 42px 80px 44px;
 }
 
 .advantages__icon {
@@ -84,7 +87,7 @@
 }
 
 .advantages-wrapper {
-    padding-top: 117px;
+    padding-top: 112px;
     position: relative;
     overflow: hidden;
 }
@@ -99,8 +102,8 @@
     &::after {
         content: "";
         position: absolute;
-        top: -56px;
-        left: 479px;
+        top: -50px;
+        left: 575px;
         width: 343px;
         height: 326px;
         background-image: url("../images/triangle-small-right.png");
@@ -113,8 +116,8 @@
 
 .advantages__img-triangle-small {
     position: absolute;
-    top: -47px;
-    left: -203px;
+    top: -69px;
+    left: -190px;
     width: 343px;
     height: 326px;
     background-image: url("../images/triangle-small-advantages.svg");
@@ -140,8 +143,8 @@
 
 .advantages__big-triangle-left {
     position: absolute;
-    top: 355px;
-    left: -321px;
+    top: 530px;
+    left: -188px;
     width: 723px;
     height: 700px;
     background-image: url("../images/left-triangle.png");

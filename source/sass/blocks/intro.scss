@@ -20,7 +20,7 @@
 .intro__wrapper {
     max-width: 1555px;
     margin: 0 auto;
-    padding-bottom: 317px;
+    padding-bottom: 321px;
     position: relative;
 }
 
@@ -37,7 +37,7 @@
     background-repeat: no-repeat;
     background-size: 670px 641px;
 
-    bottom: 0;
+    bottom: 19px;
     left: -43px;
     width: 670px;
     height: 641px;
@@ -48,9 +48,8 @@
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
-    font-size: 73px;
+    font-size: 71px;
     line-height: 94px;
-    letter-spacing: 0.13em;
     text-align: left;
     font-style: normal;
     margin-bottom: 30px;
@@ -70,7 +69,7 @@
         height: 2px;
         background-color: #ffffff;
         left: 0;
-        top: 17px;
+        top: 14px;
     }
 }
 
@@ -83,7 +82,7 @@
 .intro p {
     font-weight: 400;
     font-size: 22px;
-    line-height: 34px;
+    line-height: 32px;
     font-style: normal;
     letter-spacing: 0.07em;
     text-align: left;
@@ -102,7 +101,7 @@
     color: #ffffff;
     background-color: #00b2ff;
     text-decoration: none;
-    padding: 17px 58px;
+    padding: 17px 28px;
     border-radius: 5px;
 
     @include font-roboto;
@@ -119,9 +118,10 @@
 .intro__scroll-down {
     position: absolute;
     left: -39px;
-    top: 290px;
+    top: 295px;
     color: #ffffff;
     font-size: 14px;
+    font-weight: 400;
     text-decoration: none;
     transform: rotate(-90deg);
 
@@ -135,8 +135,8 @@
 
 .intro__advice {
     position: absolute;
-    bottom: -24px;
-    left: 100px;
+    bottom: -28px;
+    left: 93px;
 }
 
 .intro__overlay {
