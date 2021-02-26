@@ -185,10 +185,9 @@
         font-style: normal;
         font-weight: 700;
         line-height: 70px;
-        letter-spacing: 0.07em;
         text-align: left;
         margin-left: -6px;
-        margin-top: 140px;
+        margin-top: 143px;
     }
 
     .intro p {
@@ -214,7 +213,7 @@
     .intro__picture {
         position: absolute;
         right: -208px;
-        top: 153px;
+        top: 156px;
     }
 
     .intro__advice {
@@ -241,6 +240,8 @@
     .intro__button {
         min-width: 356px;
         padding: 19px 15px;
+        font-size: 16px;
+        font-weight: 600;
     }
 
     .intro__triangle-big {

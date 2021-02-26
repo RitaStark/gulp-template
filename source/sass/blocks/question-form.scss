@@ -247,7 +247,7 @@
 
 @media (max-width: $desktop-width) {
     .question-form {
-        padding-bottom: 27px;
+        padding-bottom: 29px;
     }
 
     .question-form__wrapper {
@@ -273,7 +273,13 @@
     }
 
     .question-form__item {
-        margin-bottom: 41px;
+        margin-bottom: 38px;
+    }
+
+    .question-form__item > input {
+        &::placeholder {
+            font-size: 17px;
+        }
     }
 
     .question-form__client-data {
@@ -292,13 +298,20 @@
 
     .question-form__data {
         margin: 0 auto;
-        width: 90%;
+        width: 92%;
         row-gap: 0;
-        padding-top: 53px;
+        padding-top: 57px;
     }
 
     .question-form__ask textarea {
         height: 166px;
+        font-size: 18px;
+    }
+
+    .question-form__input {
+        &::placeholder {
+            font-size: 17px;
+        }
     }
 
     .question-form__agreements {
@@ -322,6 +335,13 @@
     .question-form__check-mark + label::after {
         width: 14px;
         height: 14px;
+        left: 5px;
+        top: 3px;
+    }
+
+    .question-form__check-mark:checked + label::before {
+        top: 6px;
+        left: 8px;
     }
 }
 

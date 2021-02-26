@@ -113,9 +113,14 @@
         max-width: 95%;
     }
 
+    .about-company__wrapper p {
+        line-height: 21px;
+        font-size: 16px;
+    }
+
     .about-company h2 {
         font-size: 30px;
-        margin-bottom: 23px;
+        margin-bottom: 22px;
         margin-top: 20px;
     }
 
@@ -124,11 +129,12 @@
     }
 
     .about-company__par-first {
-        margin-bottom: 45px;
+        margin-bottom: 24px;
     }
 
     .about-company__par-second {
-        padding-bottom: 53px;
+        padding-bottom: 59px;
+        margin-top: 0;
     }
 
     .about-company__button {
