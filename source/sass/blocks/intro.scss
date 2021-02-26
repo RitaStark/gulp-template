@@ -267,7 +267,7 @@
     .intro__wrapper {
         max-width: 767px;
         margin-top: 62px;
-        padding-bottom: 47px;
+        padding-bottom: 46px;
         display: flex;
         flex-direction: column;
     }
@@ -282,18 +282,19 @@
         font-style: normal;
         font-weight: 700;
         line-height: 47px;
-        letter-spacing: 0.07em;
+        letter-spacing: 0;
         text-align: left;
         position: relative;
         z-index: 10;
-        margin-top: 280px;
+        margin-top: 278px;
+        margin-bottom: 25px;
     }
 
     .intro__block {
-        margin-bottom: 93px;
+        margin-bottom: 95px;
 
         &::before {
-            top: 13px;
+            top: 16px;
         }
     }
 
@@ -311,7 +312,7 @@
 
     .intro__picture {
         position: absolute;
-        top: 175px;
+        top: 171px;
         right: -7px;
     }
 
@@ -345,13 +346,13 @@
         display: block;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 18.75px;
         text-align: center;
         color: #ffffff;
         background-color: #00b2ff;
         text-decoration: none;
-        padding: 17px 0;
+        padding: 18px 0 18px 9px;
         border-radius: 5px;
         max-width: 284px;
 

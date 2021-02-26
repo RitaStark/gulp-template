@@ -159,6 +159,10 @@
         }
     }
 
+    .main-nav__list {
+        margin-top: -5px;
+    }
+
     .main-nav__email {
         margin-right: 3rem;
 
@@ -177,7 +181,7 @@
 
     .main-nav__tel > a > img {
         position: relative;
-        left: 8px;
+        left: 20px;
         top: -10px;
         width: 23px;
         height: 23px;

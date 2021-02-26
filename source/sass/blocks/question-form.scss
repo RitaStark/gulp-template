@@ -329,6 +329,10 @@
 
 // mobile ----------------------------------------------------------------------------
 @media (max-width: $tablet-width) {
+    .question-form {
+        padding-bottom: 32px;
+    }
+
     .question-form__wrapper {
         margin: 0 auto;
         padding: 30px 15px 12px 15px;
@@ -379,6 +383,7 @@
             padding-left: 17px;
             padding-top: 13px;
             font-size: 17px;
+            margin-bottom: -5px;
         }
 
         @include max-width-767;
@@ -394,13 +399,13 @@
 
     .question-form__item {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 32px;
 
         & input[type="text"],
         input[type="tel"] {
             box-sizing: border-box;
             width: 100%;
-            font-size: 16px;
+            font-size: 9px;
             padding-left: 18px;
         }
     }
@@ -445,7 +450,7 @@
             width: 15px;
             height: 15px;
             left: 0;
-            top: 30px;
+            top: 31px;
         }
     }
 }
