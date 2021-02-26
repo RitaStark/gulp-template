@@ -224,10 +224,15 @@
         margin-left: 0;
     }
 
+    .services__accessories--first-par {
+        padding-top: 10px;
+    }
+
     .services__list a {
         width: 100%;
         position: relative;
         margin-bottom: 30px;
+        font-size: 18px;
 
         &::before {
             content: "";
