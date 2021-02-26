@@ -11,7 +11,7 @@
 
 .intro__container {
     margin: 0 72px;
-    padding-top: 281px;
+    padding-top: 282px;
     display: flex;
     align-items: center;
     position: relative;
@@ -27,7 +27,7 @@
 .intro__picture {
     position: absolute;
     right: -45px;
-    top: 283px;
+    top: 287px;
     z-index: 0;
 }
 
@@ -48,11 +48,11 @@
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
-    font-size: 71px;
+    font-size: 77px;
     line-height: 94px;
     text-align: left;
     font-style: normal;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 
     @include font-roboto;
 }
@@ -84,10 +84,9 @@
     font-size: 22px;
     line-height: 32px;
     font-style: normal;
-    letter-spacing: 0.07em;
     text-align: left;
     color: #ffffff;
-    margin-bottom: 53px;
+    margin-bottom: 57px;
 
     @include font-ptmono;
 }
