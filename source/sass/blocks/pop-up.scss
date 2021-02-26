@@ -159,12 +159,13 @@
     }
 }
 
-.pop-up__agree-text {
+.pop-up label {
     margin-top: 0;
-}
-
-.pop-up__agree-text p {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 19px;
+    font-size: 17px;
+    font-weight: 400;
+
+    @include font-ptmono;
 }

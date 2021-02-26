@@ -152,18 +152,16 @@
 .question-form__agreements label {
     position: relative;
     cursor: pointer;
-    margin-left: 0;
+    margin-left: 4%;
+    margin-top: 7px;
+    padding-left: 32px;
+    max-width: 240px;
+
+    @include font-ptmono;
 
     &:hover {
         opacity: 0.5;
     }
-}
-
-.question-form__agree-text {
-    margin-top: 7px;
-    padding-left: 27px;
-
-    @include font-ptmono;
 }
 
 .question-form__image {
@@ -427,13 +425,10 @@
     }
 
     .question-form__agreements label {
-        padding-left: 7px;
+        padding-left: 39px;
         margin-left: 0;
         padding-top: 29px;
         padding-right: 5px;
-    }
-
-    .question-form__agree-text {
         margin-top: 0;
     }
 
